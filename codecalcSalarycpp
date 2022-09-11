@@ -1,0 +1,17 @@
+/**From monthly salary calculation to annual salary and ten years as forecast.**//
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float monthlySalary;
+    cout<<"Hello, unknown person, please enter your monthly salary: R$ ";
+    cin>> monthlySalary;
+    float annualSalary = monthlySalary*12;
+    cout<<"In one year, you will earn R$ " <<annualSalary;
+    cout<<"; In ten years, you will earn R$" <<annualSalary*10;
+    
+    return 0;
